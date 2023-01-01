@@ -1,6 +1,5 @@
 package com.naztech.logreader;
 
-import org.jetbrains.annotations.NotNull;
 
 /**
  * 
@@ -12,8 +11,12 @@ public class FileInfo {
 	
 	private String fileName;
 	private long lastLogIndex;
+
+	public FileInfo(){
+
+	}
 	
-	public FileInfo(@NotNull final String fileName,@NotNull final long lastLogIndex) {
+	public FileInfo(final String fileName, final long lastLogIndex) {
 		super();
 		this.fileName = fileName;
 		this.lastLogIndex = lastLogIndex;
@@ -25,6 +28,14 @@ public class FileInfo {
 
 	public long getLastLogIndex() {
 		return lastLogIndex;
+	}
+
+	public void setFileName(String fileName){
+		this.fileName = fileName;
+	}
+
+	public void setLastLogIndex(long index){
+		this.lastLogIndex = index;
 	}
 	
 	
