@@ -1,0 +1,10 @@
+com\naztech\logreader\model\FileInfo.class
+com\naztech\logreader\model\LogMessage.class
+com\naztech\logreader\utils\LogUtils.class
+com\naztech\logreader\service\CustomLogReaderService.class
+com\naztech\logreader\constant\QueueConstant.class
+com\naztech\logreader\exception\FileIndexNotFoundException.class
+com\naztech\logreader\constant\WireKeys.class
+com\naztech\logreader\NaztechLogReaderApplication.class
+com\naztech\logreader\processor\LogProcessor.class
+com\naztech\logreader\processor\KafkaProcessor.class

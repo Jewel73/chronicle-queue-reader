@@ -1,11 +1,6 @@
 Manifest-Version: 1.0
 Build-Jdk-Spec: 17
-Class-Path: chronicle-logger-tools-4.20ea2.jar chronicle-logger-core-4.2
- 0ea2.jar chronicle-wire-2.20.117.jar compiler-2.4.1.jar slf4j-api-1.7.3
- 0.jar chronicle-logger-logback-4.20ea2.jar logback-classic-1.2.3.jar lo
- gback-core-1.2.3.jar chronicle-queue-5.20.123.jar chronicle-core-2.20.1
- 26.jar chronicle-analytics-2.20.2.jar chronicle-bytes-2.20.111.jar chro
- nicle-threads-2.20.111.jar affinity-3.20.0.jar jna-5.5.0.jar jna-platfo
- rm-5.5.0.jar commons-cli-1.4.jar annotations-19.0.0.jar
+Implementation-Title: naztech-log-reader
+Implementation-Version: 0.0.1-SNAPSHOT
 Created-By: Maven Integration for Eclipse
 
