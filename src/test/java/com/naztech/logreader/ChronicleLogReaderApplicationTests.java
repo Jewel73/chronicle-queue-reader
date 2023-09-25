@@ -5,12 +5,12 @@ import java.util.concurrent.TimeUnit;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.naztech.logreader.processor.KafkaProcessor;
-import com.naztech.logreader.service.CustomLogReaderService;
+import com.jewel.logreader.processor.KafkaProcessor;
+import com.jewel.logreader.service.CustomLogReaderService;
 
 
 @SpringBootTest
-class NaztechLogReaderApplicationTests {
+class ChronicleLogReaderApplicationTests {
 	
 	String queuePath = "C:\\Users\\md.jewel\\Desktop\\Java\\chronicle-logger-test\\logs\\path\\";
 	

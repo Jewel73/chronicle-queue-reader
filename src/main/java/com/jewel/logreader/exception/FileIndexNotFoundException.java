@@ -1,4 +1,4 @@
-package com.naztech.logreader.exception;
+package com.jewel.logreader.exception;
 
 
 public class FileIndexNotFoundException extends Exception{

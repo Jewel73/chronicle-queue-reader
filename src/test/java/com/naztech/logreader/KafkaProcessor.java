@@ -2,6 +2,8 @@ package com.naztech.logreader;
 
 import org.jetbrains.annotations.Nullable;
 
+import com.jewel.logreader.LogProcessor;
+
 import net.openhft.chronicle.logger.ChronicleLogLevel;
 
 public class KafkaProcessor implements LogProcessor{

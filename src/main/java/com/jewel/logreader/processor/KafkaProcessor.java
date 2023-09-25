@@ -1,10 +1,11 @@
-package com.naztech.logreader.processor;
+package com.jewel.logreader.processor;
 
 import java.text.SimpleDateFormat;
 
 import org.jetbrains.annotations.Nullable;
-import com.naztech.logreader.model.LogMessage;
-import com.naztech.logreader.utils.LogUtils;
+
+import com.jewel.logreader.model.LogMessage;
+import com.jewel.logreader.utils.LogUtils;
 
 import net.openhft.chronicle.logger.ChronicleLogLevel;
 

@@ -1,6 +1,10 @@
 package com.naztech.logreader;
 
 import org.junit.Test;
+
+import com.jewel.logreader.CustomChronicleLogReader;
+import com.jewel.logreader.FileInfo;
+
 import net.openhft.chronicle.queue.RollCycles;
 import net.openhft.chronicle.wire.WireType;
 

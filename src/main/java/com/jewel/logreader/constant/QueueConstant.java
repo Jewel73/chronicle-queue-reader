@@ -1,4 +1,4 @@
-package com.naztech.logreader.constant;
+package com.jewel.logreader.constant;
 
 public class QueueConstant {
 	public static final String TODAY = "TODAY";

@@ -1,4 +1,4 @@
-package com.naztech.logreader;
+package com.jewel.logreader;
 
 
 /**

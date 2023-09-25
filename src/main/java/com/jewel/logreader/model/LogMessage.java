@@ -1,4 +1,4 @@
-package com.naztech.logreader.model;
+package com.jewel.logreader.model;
 
 import net.openhft.chronicle.logger.ChronicleLogLevel;
 

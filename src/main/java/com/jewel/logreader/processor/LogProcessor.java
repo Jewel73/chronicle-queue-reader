@@ -1,8 +1,8 @@
-package com.naztech.logreader.processor;
+package com.jewel.logreader.processor;
 
 import org.jetbrains.annotations.Nullable;
 
-import com.naztech.logreader.model.LogMessage;
+import com.jewel.logreader.model.LogMessage;
 
 import net.openhft.chronicle.logger.ChronicleLogLevel;
 

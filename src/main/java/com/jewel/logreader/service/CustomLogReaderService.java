@@ -1,4 +1,4 @@
-package com.naztech.logreader.service;
+package com.jewel.logreader.service;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -12,12 +12,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.naztech.logreader.model.FileInfo;
-import com.naztech.logreader.model.LogMessage;
-import com.naztech.logreader.processor.LogProcessor;
-import com.naztech.logreader.constant.QueueConstant;
-import com.naztech.logreader.constant.WireKeys;
-import com.naztech.logreader.exception.FileIndexNotFoundException;
+import com.jewel.logreader.constant.QueueConstant;
+import com.jewel.logreader.constant.WireKeys;
+import com.jewel.logreader.exception.FileIndexNotFoundException;
+import com.jewel.logreader.model.FileInfo;
+import com.jewel.logreader.model.LogMessage;
+import com.jewel.logreader.processor.LogProcessor;
+
 import net.openhft.chronicle.logger.ChronicleLogLevel;
 import net.openhft.chronicle.queue.ChronicleQueue;
 import net.openhft.chronicle.queue.ExcerptTailer;
